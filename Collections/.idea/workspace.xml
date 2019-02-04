@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24e2c343-fd36-4315-a8c8-96ff3fecd333" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Dzien11/TableOfContent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TableOfContent" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sda/HasMapDemo/MapTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/TDL_Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sda/UserService/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoProjektGit" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoProjektGit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dzien11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dzien11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dzien11/src/main/java/SDA/Algorytmy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dzien11/src/main/java/SDA/Algorytmy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/BubbleSorting/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dzien12/src/main/java/SDA/BubbleSorting/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dzien10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/AgeExcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/UserService/AgeExcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Countries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Countries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Countries2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Countries2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Kolejki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/QueDemo/Kolejki.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Listy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/ListyDemo/Listy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Mapy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/HasMapDemo/Mapy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Prezydent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Prezydent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Priorities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/Priorities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/QueIsFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/QueDemo/QueIsFull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/Sety.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Sety.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/ToDoLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/ToDoLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/UserService/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sda/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sda/UserService/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sda/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/Countries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/Countries2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/Listy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/Mapy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/Prezydent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/Sety.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/UserService.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sda/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/ToDoLista.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/TDL_Tester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TableOfContent">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/sda/Listy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/Mapy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/Countries.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/Countries2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/Sety.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/Prezydent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/Country.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/AgeExcept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/QueIsFull.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/Kolejki.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/Priorities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/ToDoLista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Countries2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/UserService/AgeExcept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/UserService/Tester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/HasMapDemo/MapTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/UserService/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Sety.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/ListyDemo/Listy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/QueDemo/Kolejki.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/ToDoLista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/TDL_Tester.java" />
+        <option value="$PROJECT_DIR$/TableOfContent" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1062" />
+    <option name="height" value="920" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UserService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UserService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projekt1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549299332355" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoProjektGit" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sda" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TDL_Tester">
+    <configuration name="MapTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sda.HasMapDemo.MapTester" />
+      <module name="Dzien10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sda.HasMapDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sety" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sda.HashSetDemo.Sety" />
+      <module name="Dzien10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sda.HashSetDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDL_Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sda.ToDoListDemo1.TDL_Tester" />
+      <module name="Dzien10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sda.ToDoListDemo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sda.UserService.Tester" />
+      <module name="Dzien10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sda.UserService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoLista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sda.ToDoListDemo1.ToDoLista" />
+      <module name="Dzien10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sda.HashSetDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TDL_Tester" />
+        <item itemvalue="Application.Sety" />
+        <item itemvalue="Application.MapTester" />
+        <item itemvalue="Application.ToDoLista" />
+        <item itemvalue="Application.Tester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24e2c343-fd36-4315-a8c8-96ff3fecd333" name="Default Changelist" comment="" />
+      <created>1548496803468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548496803468</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1062" height="920" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41616768" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39771283" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="135" column="3" selection-start-line="135" selection-start-column="3" selection-end-line="135" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/Priority.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Countries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Countries2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/HasMapDemo/Mapy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Prezydent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/UserService/AgeExcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/UserService/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/HasMapDemo/MapTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/UserService/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/UserService/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2123#2124#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/HashSetDemo/Sety.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/ListyDemo/Listy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/QueDemo/QueIsFull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/QueDemo/Kolejki.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/Priorities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/ToDoLista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sda/ToDoListDemo1/TDL_Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TableOfContent">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
