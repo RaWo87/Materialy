@@ -2,18 +2,18 @@ package com.company;
 
 import java.time.LocalDate;
 
-public class User {
+public class User extends GenerateUserPara{
     String name;
     String lastname;
     String login;
     String password;
     LocalDate birthDate;
 
-    User(String name, String lastname, String login, String password, Integer[] dayMonthYear) {
+    User(String name, String lastname, Integer[] dayMonthYear) {
         this.name = name;
         this.lastname = lastname;
-        this.login = login;
-        this.password = password;
+        this.login = generateLogin(name,lastname);
+        this.password = generatePassword();
         this.birthDate = LocalDate.of(dayMonthYear[2], dayMonthYear[0], dayMonthYear[1]);
     }
     public LocalDate getBirthDate(){
@@ -30,6 +30,10 @@ public class User {
 
     public String getPassword() {
         return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public boolean checkPasswordLeangth(User user){
