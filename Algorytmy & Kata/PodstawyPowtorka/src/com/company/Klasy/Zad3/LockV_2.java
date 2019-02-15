@@ -60,5 +60,18 @@ public class LockV_2 {
         }
         if(checkUP()) System.out.println("lock is open");
     }
+    public void lockBreaker(int iloscPrzekładni){
+        Integer[][] a = new Integer[iloscPrzekładni+1][iloscPrzekładni+1];
+        int i=1;
+        while(checkUP()==false){
+
+
+
+
+
+
+
+        }
+    }
 
 }
