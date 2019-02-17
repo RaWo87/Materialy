@@ -1,10 +1,24 @@
 package com.company;
 
+import java.util.logging.Logger;
+
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 
+
 public class Sortowanie1 {
+    // dobra praktywaka aby logger zawieral nazwe klasy ktora loguje
+    // loggery nie przechowuja informacji same w sobie, sa odpowiednikiem sysouta z filtrem 'info'
+    // i musza byc analogicznie umieszczane w kodzie
+    protected static final Logger log = Logger.getLogger(Sortowanie1.class.getName());
+
+    public static void main(String[] args) {
+
+        log.info("poziom info");
+
+        log.warning("poziom warning");
+    }
 
 
     public int generateRandom(){
@@ -16,10 +30,21 @@ public class Sortowanie1 {
         List<Integer> lista = new LinkedList<>();
         for (int i = 0; i <10 ; i++) {
             lista.add(generateRandom());
+            //logujemy wyswietlanie kazdej wygenerowanej liczby
+            log.info("wygenerowana liczba = "+ lista.get(i));
         }
         return lista;
     }
 
+    // tab to List
+    public List<Integer> tabToList(Integer[] tab){
+        List<Integer>  resault = new LinkedList<>();
+        for (int a: tab
+        ) {
+            resault.add(a);
+        }
+        return resault;
+    }
     public List<Integer>[] evenOdd(List<Integer> input) {
 
         List<Integer> even = new LinkedList<>();
@@ -61,17 +86,6 @@ public class Sortowanie1 {
         return lista;
     }
 
-
-    // tab to List
-    public List<Integer> tabToList(Integer[] tab){
-        List<Integer>  resault = new LinkedList<>();
-        for (int a: tab
-             ) {
-            resault.add(a);
-        }
-        return resault;
-    }
-
     //sort
     public static Integer[] sortByPicking2(List<Integer> list) {
         Integer[] values = new Integer[list.size()];
@@ -93,5 +107,8 @@ public class Sortowanie1 {
         }
         return values;
     }
+
+
+
 
 }
