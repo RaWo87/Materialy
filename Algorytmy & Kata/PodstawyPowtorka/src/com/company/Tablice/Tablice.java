@@ -23,7 +23,7 @@ public class Tablice {
     //ZAD3 najmniejszy int w tablicy
     public int minInt(int[] tab){
         int resault = 0;
-        int current = 0;
+        int current;
         for (int i = 0; i < tab.length - 1; i++) {
             current = (tab[i] < tab[i + 1] ? tab[i] : tab[i + 1]);
             resault = (current < resault ? current : resault);
