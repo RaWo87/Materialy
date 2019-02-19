@@ -2,7 +2,7 @@ package SDA;
 
 import java.time.LocalDate;
 
-public class wDay {
+public class wDay implements Comparable<wDay>{
    private int hTemp,lTemp,mTemp;
     private LocalDate dzien;
 
@@ -60,4 +60,9 @@ public class wDay {
     }
 
 
+
+    @Override
+    public int compareTo(wDay o) {
+        return (this.getDzien().isAfter(o.getDzien())? 1:this.getDzien().equals(o.getDzien())? 0:-1);
+    }
 }
