@@ -19,6 +19,9 @@ public class TesterDziedziczenia {
              ) {
             System.out.print(a+" ");
         }
+        Walec walec = new Walec(1,10);
+        System.out.println("\npole walca: "+walec.getSurfaceArea());
+
 
     }
 
@@ -128,4 +131,6 @@ public class TesterDziedziczenia {
         }
         System.out.println("ludnosc: "+ total+ " liczba dni: "+liczbaDni);
     }
+
+
 }
