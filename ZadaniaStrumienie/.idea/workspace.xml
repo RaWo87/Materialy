@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbf37a0-4d83-4216-ad95-bb2ff0b8c317" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Algorytmy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Pogoda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/wDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sortedBooks.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BubbleSort i komparatory/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BubbleSort i komparatory/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Search by ID" beforeDir="false" afterPath="$PROJECT_DIR$/../Search by ID" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Strumienie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Strumienie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Pogoda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Pogoda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SDA/TesterStrumieni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/TesterStrumieni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rozcwiczka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rozcwiczka/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SDA/TesterStrumieni.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,14 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Pogoda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+            <state relative-caret-position="318">
+              <caret line="165" selection-start-line="165" selection-end-line="165" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3093#3094#0" expanded="true" />
+                <element signature="e#3099#3100#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SDA/wDay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="660">
               <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
                 <element signature="e#138#139#0" expanded="true" />
@@ -120,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/main/java/SDA/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Strumienie.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/wDay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/Pogoda.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/TesterStrumieni.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Pogoda.java" />
       </list>
     </option>
   </component>
@@ -193,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550412516903" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550415369948" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rozcwiczka" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -244,7 +232,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16709511" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -256,7 +243,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,9 +369,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/weather-data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="20604" selection-start-line="20604" selection-end-line="20605" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/TesterStrumieni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/wDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="660">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#138#139#0" expanded="true" />
@@ -405,37 +416,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Pogoda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+        <state relative-caret-position="318">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3093#3094#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/weather-data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="20604" selection-start-line="20604" selection-end-line="20605" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/TesterStrumieni.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3099#3100#0" expanded="true" />
           </folding>
         </state>
       </provider>

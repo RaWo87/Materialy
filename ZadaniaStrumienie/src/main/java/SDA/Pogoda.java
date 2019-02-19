@@ -59,7 +59,7 @@ public class Pogoda {
         LineIterator newLine = FileUtils.lineIterator(weatherRaports, "UTF-8");
         // deklaracja kluczowych pól
         List<Integer> resault = new LinkedList<>();
-        List<wDay> dniWzakresie= new LinkedList<>();
+        List<wDay> dniWzakresie = new LinkedList<>();
         wDay day;
         boolean inScope = false;
 
@@ -80,26 +80,108 @@ public class Pogoda {
             }
         }
         // szukanie min i max temp
-        int min,max;
+        int min, max;
         min = dniWzakresie.get(0).getlTemp();
         max = dniWzakresie.get(0).gethTemp();
-        for (wDay x: dniWzakresie
-             ) {
-            if(x.gethTemp()>max){
-                max=x.gethTemp();
+        for (wDay x : dniWzakresie
+        ) {
+            if (x.gethTemp() > max) {
+                max = x.gethTemp();
             }
-            if(x.gethTemp()<min){
-                min=x.gethTemp();
+            if (x.gethTemp() < min) {
+                min = x.gethTemp();
             }
         }
         resault.add(min);
         resault.add(max);
 
         return resault;
-        }
+    }
 
     public void showDay(wDay day) {
         System.out.println(day.toString());
     }
+
+    public List<Integer> aboveAndBelow(Integer boundry) throws IOException {
+
+        File weatherRaports = new File(resourcesPath + "weather-data.csv");
+        LineIterator newLine = FileUtils.lineIterator(weatherRaports, "UTF-8");
+
+        List<Integer> resault = new LinkedList<>();
+        List<wDay> dni = new LinkedList<>();
+        wDay day;
+        while (newLine.hasNext()) {
+            try {
+
+                day = setDay(newLine.nextLine());
+                dni.add(day);
+            } catch (Exception e) {
+                log.info("zly format");
+            }
+
+
+        }
+        int below = 0, above = 0, avarage = 0;
+
+        for (wDay x : dni
+        ) {
+            if (x.getmTemp() > boundry) {
+                above++;
+            }
+            if (x.getmTemp() < boundry) {
+                below++;
+            }
+            avarage += x.getmTemp();
+        }
+        resault.add(above);
+        resault.add(below);
+        resault.add(avarage / dni.size());
+
+        return resault;
+    }
+
+    public void hottestColdest() throws IOException {
+
+        File weatherRaports = new File(resourcesPath + "weather-data.csv");
+        LineIterator newLine = FileUtils.lineIterator(weatherRaports, "UTF-8");
+
+        List<Integer> resault = new LinkedList<>();
+        List<wDay> dni = new LinkedList<>();
+        wDay day;
+
+        while (newLine.hasNext()) {
+            try {
+                day = setDay(newLine.nextLine());
+                dni.add(day);
+            } catch (Exception e) {
+                log.info("zly format");
+            }
+        }
+        int     hDay=dni.get(0).getmTemp(),
+                cDay=dni.get(0).getmTemp();
+        int hMonth,cMonth,hYear,cYear;
+        for (wDay x: dni
+             ) {
+        if(x.getmTemp()>hDay){
+
+        }
+        }
+
+
+        System.out.println(
+                "\nhottest Year: "  +""+
+                "\n coldest Year: " +""+
+                "\n hottest month: "+""+
+                "\n coldest month: "+""+
+                "\nhottest day: "   +""+
+                "\ncoldest day: "   +"");
+    }
+
+
+
+
+
+
+
 
 }

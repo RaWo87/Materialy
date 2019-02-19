@@ -12,7 +12,8 @@ public class TesterStrumieni {
        // w.showDay(w.findAday("3/2/1966"));
       //  w.showDay(w.setDay("2/15/1966,8,3,-1"));
 
-        System.out.println(w.tempInPeriod("8/28/2004","8/29/2004"));
+        //System.out.println(w.tempInPeriod("8/28/2004","8/29/2004"));
+        System.out.println(w.aboveAndBelow(0));
 
 
     }
