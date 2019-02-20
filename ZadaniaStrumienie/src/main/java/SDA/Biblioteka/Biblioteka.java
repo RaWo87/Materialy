@@ -7,12 +7,14 @@ import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
 
 public class Biblioteka {
-    static final Logger log = Logger.getLogger(Strumienie.class.getName());
-    String resourcesPath = "C:/Users/m1rage/IdeaProjects/ZadaniaStrumienie/src/main/resources/";
+    static final Logger log = Logger.getLogger(Biblioteka.class.getName());
+    static final String s = Paths.get("").toAbsolutePath().toString().replace("\\","/");
+    static final String resourcesPath = s+"/src/main/resources/";
     public void clearLog() throws IOException {
         FileUtils.write(new File(resourcesPath + "StrumienieLogs.log"), "", "UTF-8");
     }

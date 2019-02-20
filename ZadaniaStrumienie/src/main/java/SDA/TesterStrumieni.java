@@ -11,7 +11,7 @@ public class TesterStrumieni {
         Strumienie a = new Strumienie();
         Pogoda w = new Pogoda();
 
-        w.hottestColdest();
+        //w.hottestColdest();
 
 
 
