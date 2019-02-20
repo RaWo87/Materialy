@@ -14,6 +14,8 @@ UPDATE;anowak;;;;user
 UPDATE;rkowalski;;Ryszard;;
 REMOVE;zdybek;;;;
 CREATE;zdybek;admin123;Zofia;Dybek;user
+CREATE;zdybek;admin123;Zofia;Dybek;user
+REMOVE;DUPA;admin123;Zofia;Dybek;user
 CREATE;bkot;pswTest123;Barbara;Kot;moderator
 UPDATE;zdybek;PASSword123;;;
 REMOVE;rmaks;;;;
