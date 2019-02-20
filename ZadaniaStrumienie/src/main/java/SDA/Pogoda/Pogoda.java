@@ -1,4 +1,4 @@
-package SDA;
+package SDA.Pogoda;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.time.Month;
 import java.util.*;
 
 public class Pogoda {
@@ -154,67 +155,136 @@ public class Pogoda {
             }
         }
         Collections.sort(dni);
-        Integer[][] hcDay = hottestAndColdestDay(dni);
-        Integer[][] hcMonth = hottestAndColdestMonth(dni);
-        Integer[][] hcYear = hottestAndColdestYear(dni);
 
+        System.out.println(eachYearAvTemp(dni).keySet());
+        System.out.println(eachYearAvTemp(dni).values());
 
+        System.out.println(eachMonthAvTemp(dni).keySet());
+        System.out.println(eachMonthAvTemp(dni).values());
 
-        System.out.println(
-                "\ncoldest Year: "  +hcYear[0][0]+" with "+ hcYear[0][1]+"degree"+
-                "\nhottest Year: " +hcYear[1][0]+" with "+ hcYear[1][1]+"degree"+
-                "\ncoldest month: "+hcMonth[0][0]+" with "+ hcMonth[0][1]+"degree"+
-                "\nhottest month: "+hcMonth[1][0]+" with "+ hcMonth[1][1]+"degree"+
-                "\ncoldest day: "  +hcDay[0][0]+" with "+ hcDay[0][1]+"degree"+
-                "\nhottest day: "  +hcDay[1][0]+" with "+ hcDay[1][1]+"degree");
+        System.out.println(eachDayAvTemp(dni).keySet());
+        System.out.println(eachDayAvTemp(dni).values());
+
     }
 
-    public Integer[][] eachDayAvTemp(List<wDay> dni){
-        Integer[][] avDailyTemp = new Integer[31][2];
-        for (Integer[] x: avDailyTemp
-        ) { x[0] = x[1] = 0; }
+    public Map<Integer, Double> eachDayAvTemp(List<wDay> dni) {
+        Map<Integer, Double> tempInDays = new HashMap<>();
+        Map<Integer, Integer> daysInDays = new HashMap<>();
 
-        for (wDay day: dni
-        ) {
-            // setting int counter, to store information about dayOfMonth
-            int currentDay = (Integer)day.getDzien().getDayOfMonth();
-            // summing all temperatures in a field corresponding to calendar date
-            avDailyTemp[currentDay-1][0]+= day.getmTemp();
-            // counting total ammount of days
-            avDailyTemp[currentDay-1][1]++;
-        }
-        // getting avarage daily temp for each day
-        for (Integer[] x: avDailyTemp
-        ) {
-            x[0]=x[0]/x[1];
-        }
-
-        return avDailyTemp;
-    }
-
-    public Integer[][] eachMonthAvTemp(List<wDay> dni) {
-
-        Integer[][] avarageTempMatrix = new Integer[12][2];
-
-        for (Integer[] x : avarageTempMatrix
-        ) {
-            x[0] = x[1] = 0;
-        }
-
+        Double sumaTemperatur;
+        int liczbaDni;
         for (wDay day : dni
         ) {
-            int current = day.getDzien().getMonthValue();
-            avarageTempMatrix[current - 1][0] += day.getmTemp();
-            avarageTempMatrix[current - 1][1]++;
-        }
-        for (Integer[] x : avarageTempMatrix
-        ) {
-            x[0] = x[0] / x[1];
+            if (!tempInDays.containsKey(day.getDzien().getDayOfMonth())) {
+                sumaTemperatur = Double.valueOf(day.getmTemp());
+                liczbaDni = 1;
+            } else {
+                sumaTemperatur = day.getmTemp() + tempInDays.get(day.getDzien().getDayOfMonth());
+                liczbaDni = daysInDays.get(day.getDzien().getDayOfMonth()) + 1;
+            }
+            tempInDays.put(day.getDzien().getDayOfMonth(), sumaTemperatur);
+            daysInDays.put(day.getDzien().getDayOfMonth(), liczbaDni);
         }
 
-        return avarageTempMatrix;
+        for (Integer day : tempInDays.keySet()
+        ) {
+            tempInDays.put(day, tempInDays.get(day) / daysInDays.get(day));
+        }
+
+        Double high = Collections.max(tempInDays.values());
+        Double low = Collections.min(tempInDays.values());
+
+
+        //transfering outcome to resaults Map
+        Map<Integer, Double> resault = new HashMap<>();
+        for (Integer x : tempInDays.keySet()
+        ) {
+            if (tempInDays.get(x).equals(high)) {
+                resault.put(x, high);
+            }
+            if (tempInDays.get(x).equals(low)) {
+                resault.put(x, low);
+            }
+        }
+        return resault;
     }
 
+    public Map<Month, Integer> eachMonthAvTemp(List<wDay> dni) {
+        Map<Month, Integer> tempInMonths = new HashMap<>();
+        Map<Month, Integer> daysInMonths = new HashMap<>();
+        // Setting keySets
+        for (Month x : Month.values()
+        ) {
+            tempInMonths.put(x, 0);
+            daysInMonths.put(x, 0);
+        }
+        // summing temperatures for each month, and ammount of days for given months
+        for (wDay day : dni
+        ) {
+            int sumaTemperatur = tempInMonths.get(day.getDzien().getMonth());
+            sumaTemperatur += day.getmTemp();
+            tempInMonths.put(day.getDzien().getMonth(), sumaTemperatur);
+
+            int dayCounter = daysInMonths.get(day.getDzien().getMonth());
+            dayCounter++;
+            daysInMonths.put(day.getDzien().getMonth(), dayCounter);
+
+        }
+        // Calculating an avarage monthly temperature
+        for (Month x : tempInMonths.keySet()
+        ) {
+            int avarageTemp = tempInMonths.get(x) / daysInMonths.get(x);
+            tempInMonths.put(x, avarageTemp);
+        }
+        // Looking for min and max values
+        int high = Collections.max(tempInMonths.values());
+        int low = Collections.min(tempInMonths.values());
+
+        //transfering outcome to resaults Map
+        Map<Month, Integer> resault = new HashMap<>();
+        for (Month x : tempInMonths.keySet()
+        ) {
+            if (tempInMonths.get(x).equals(high)) {
+                resault.put(x, high);
+            }
+            if (tempInMonths.get(x).equals(low)) {
+                resault.put(x, low);
+            }
+        }
+        return resault;
+    }
+
+
+    public Map<Integer, Double> eachYearAvTemp(List<wDay> dni) {
+        Map<Integer, Double> years = new HashMap<>();
+        Double avTemp = 0D;
+
+        for (int i = 0; i < dni.size() - 1; i++) {
+            avTemp += dni.get(i).getmTemp();
+            if (dni.get(i).getDzien().getYear() < dni.get(i + 1).getDzien().getYear()) {
+                avTemp = avTemp / dni.get(i).getDzien().getDayOfYear();
+                years.put(dni.get(i).getDzien().getYear(), avTemp);
+                avTemp = 0D;
+            }
+        }
+        Double high = Collections.max(years.values());
+        Double low = Collections.min(years.values());
+
+        //transfering outcome to resaults Map
+        Map<Integer, Double> resault = new HashMap<>();
+        for (Integer x : years.keySet()
+        ) {
+            if (years.get(x).equals(high)) {
+                resault.put(x, high);
+            }
+            if (years.get(x).equals(low)) {
+                resault.put(x, low);
+            }
+        }
+        return resault;
+    }
+
+    //############################### ZOMBIE CODE
     public Integer countYears(List<wDay> dni) {
         // liste sprawdzamy rok po roku z uwagi na to, że dane moga byc nie kompletne.
         int years = 1;
@@ -225,90 +295,4 @@ public class Pogoda {
         }
         return years;
     }
-    
-    public Integer[][] eachYearAvTemp(List<wDay> dni) {
-        Map<Integer, Integer> years = new HashMap<>();
-        int avTemp = 0;
-
-        for (int i = 0; i < dni.size() - 1; i++) {
-            avTemp += dni.get(i).getmTemp();
-            if (dni.get(i).getDzien().getYear() < dni.get(i + 1).getDzien().getYear()) {
-                avTemp = avTemp / dni.get(i).getDzien().getDayOfYear();
-                years.put(dni.get(i).getDzien().getYear(), avTemp);
-                avTemp=0;
-            }
-        }
-        Integer[][] resault = new Integer[2][2];
-        int high = Collections.max(years.values());
-        int low = Collections.min(years.values());
-
-        for (Integer x: years.keySet()
-             ) {
-            if(years.get(x).equals(high)){
-                resault[1][0]=x;
-                resault[1][1]=years.get(x);
-
-            }
-            if(years.get(x).equals(low)){
-                resault[0][0]=x;
-                resault[0][1]=years.get(x);
-
-            }
-        }
-
-        return resault;
-    }
-    public Integer[][] lowestHighestInScope(Integer[][] valueAndIndex){
-        Integer[][] avDailyTemp = valueAndIndex;
-
-        int hotIndex = 0;
-        int coldIndex = 0;
-        int lowestTemp = avDailyTemp[1][0];
-        int highestTemp = avDailyTemp[1][0];
-
-        for (int i = 0; i < avDailyTemp.length - 1; i++) {
-            if (avDailyTemp[i][0] > highestTemp) {
-                highestTemp = avDailyTemp[i][0];
-                hotIndex = i;
-            }
-            if (avDailyTemp[i][0] < avDailyTemp[i + 1][0]) {
-                if (avDailyTemp[i][0] < lowestTemp) {
-                    lowestTemp = avDailyTemp[i][0];
-                    coldIndex = i;
-                }
-            }
-        }
-
-        Integer[][] resault = new Integer[2][2];
-
-        resault[0][0] = coldIndex + 1;
-        resault[0][1] = lowestTemp;
-        resault[1][0] = hotIndex + 1;
-        resault[1][1] = highestTemp;
-
-        return resault;
-
-    }
-
-
-    public Integer[][] hottestAndColdestDay(List<wDay> dni){
-       Integer[][] avDailyTemp = eachDayAvTemp(dni);
-       return  lowestHighestInScope(avDailyTemp);
-    }
-    public Integer[][] hottestAndColdestMonth(List<wDay> dni){
-        Integer[][] avDailyTemp = eachMonthAvTemp(dni);
-        return  lowestHighestInScope(avDailyTemp);
-    }
-    public Integer[][] hottestAndColdestYear(List<wDay> dni){
-
-        return eachYearAvTemp(dni);
-    }
-
-
-
-
-
-
-
-
 }

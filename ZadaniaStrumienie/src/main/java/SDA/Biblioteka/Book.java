@@ -1,4 +1,4 @@
-package SDA;
+package SDA.Biblioteka;
 
 public class Book implements Comparable<Book>{
     //id,cat,name,price,inStock,author_t,series_t,sequence_i,genre_s

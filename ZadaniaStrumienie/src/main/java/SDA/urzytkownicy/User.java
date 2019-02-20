@@ -1,4 +1,4 @@
-package SDA;
+package SDA.urzytkownicy;
 
 public class User {
     String name;

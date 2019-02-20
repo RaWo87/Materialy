@@ -1,4 +1,4 @@
-package SDA;
+package SDA.Pogoda;
 
 import java.time.LocalDate;
 
