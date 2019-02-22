@@ -3,6 +3,7 @@ package com.company.Dziedziczeni;
 public class Circle extends Shape {
     int r;
 
+
     Circle(int r){
         this.r=r;
     }

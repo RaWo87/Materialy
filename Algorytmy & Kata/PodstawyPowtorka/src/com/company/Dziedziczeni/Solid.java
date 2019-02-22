@@ -1,4 +1,4 @@
-package com.company.CharyMary;
+package com.company.Dziedziczeni;
 
 public interface Solid <T>{
      T getSurfaceArea ();

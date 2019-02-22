@@ -3,7 +3,12 @@ package com.company.Dziedziczeni;
 public class Rectangle extends Shape {
     int bokA;
     int bokB;
-    @Override
+
+    public Rectangle(int bokA, int bokB) {
+        this.bokA = bokA;
+        this.bokB = bokB;
+    }
+
     double getArea() {
         return bokA*bokB;
     }

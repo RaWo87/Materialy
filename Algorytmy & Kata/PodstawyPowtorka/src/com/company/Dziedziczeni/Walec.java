@@ -1,26 +1,24 @@
 package com.company.Dziedziczeni;
 
-import com.company.CharyMary.Solid;
-
 public class Walec implements Solid {
-    int Podstawa;
+    int podstawa;
     int bok;
+    int h;
 
     Walec(int r, int h){
-        this.Podstawa= (int)new Circle(r).getArea();
-        this.bok= (int)new Square(h).getArea();
+        this.h=h;
+        this.podstawa = (int)new Circle(r).getArea();
+        this.bok= (int)new Rectangle(h,(int)(new Circle(r).getParimeter())).getArea();
     }
-
 
     @Override
     public Object getSurfaceArea() {
-
-
-        return 2*Podstawa+bok;
+        return 2* podstawa +bok;
     }
 
     @Override
     public Object getVolume() {
-        return null;
+
+        return podstawa*h ;
     }
 }
