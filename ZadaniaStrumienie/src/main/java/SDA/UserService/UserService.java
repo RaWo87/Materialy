@@ -21,7 +21,7 @@ public class UserService {
         FileUtils.write(new File(resourcesPath + "StrumienieLogs.log"), "", "UTF-8");
     }
 
-    List<User> userzy = new LinkedList<>();
+    private List<User> userzy = new LinkedList<>();
 
     public void readFile() throws IOException {
         clearLog();
@@ -47,7 +47,10 @@ public class UserService {
                     removeUser(line);
                     break;
                 }
+                default:
+                    log.error("invalid command");
             }
+
         }
     }
 

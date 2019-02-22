@@ -1,0 +1,45 @@
+
+przez 12 lat działalności Przewoźnik przewiózł 40363 pasażerów.
+Liczba pasażerów rocznie:
+1949r : 1520 pasażerów
+1950r : 1676 pasażerów
+1951r : 2042 pasażerów
+1952r : 2364 pasażerów
+1953r : 2700 pasażerów
+1954r : 2867 pasażerów
+1955r : 3408 pasażerów
+1956r : 3939 pasażerów
+1957r : 4421 pasażerów
+1958r : 4572 pasażerów
+1959r : 5140 pasażerów
+1960r : 5714 pasażerów
+
+Liczba pasażerów dla każdego miesiąca:
+JANUARY 2901 pasażerów.
+FEBRUARY 2820 pasażerów.
+MARCH 3242 pasażerów.
+APRIL 3205 pasażerów.
+MAY 3262 pasażerów.
+JUNE 3740 pasażerów.
+JULY 4216 pasażerów.
+AUGUST 4213 pasażerów.
+SEPTEMBER 3629 pasażerów.
+OCTOBER 3199 pasażerów.
+NOVEMBER 2794 pasażerów.
+DECEMBER 3142 pasażerów.
+
+Najlepszy i najgorszy rok działalności:
+1949r 1520 pasażerów
+1960r 5714 pasażerów
+różnica: 4194 pasażerów.
+
+Najlepszy i najgorszy miesiąc działalności:
+JULY 4216 pasażerów
+NOVEMBER 2794 pasażerów
+różnica: 1422 pasażerów.
+
+Roczny wzrost:
+1950r 10 %
+1951r 21 %
+1952r 15 %
+1953r 14 %

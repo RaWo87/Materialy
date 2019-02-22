@@ -106,17 +106,14 @@ public class Pogoda {
 
         List<Integer> resault = new LinkedList<>();
         List<wDay> dni = new LinkedList<>();
-        wDay day;
+
         while (newLine.hasNext()) {
             try {
-
-                day = setDay(newLine.nextLine());
+                wDay day = setDay(newLine.nextLine());
                 dni.add(day);
             } catch (Exception e) {
                 log.info("zly format");
             }
-
-
         }
         int below = 0, above = 0, avarage = 0;
 
