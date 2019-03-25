@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="859da33e-3fdb-49d1-9586-3eb961b2bf9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/dane.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Adapter/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Adapter/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Adapter/AccountServiceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Builder/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Dekorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Dekorator/JavaTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Dekorator/PHPTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Dekorator/RawTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Factory/BenzinCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Factory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Factory/DieselCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Factory/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Factory/FactoryCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Fasada/Fasada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Iterator/ListWithId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Obserwator/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Obserwator/Obserwator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Obserwator/SMSNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Obserwator/TempProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/DataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/DataLoaderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/ProxyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Singleton/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxContekst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxDE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxEN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/Adapter/testAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/Builder/testRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/Factory/testFactoryCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/Iterator/testIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/Singleton/testSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/HotelService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/resources/dane.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/src/main/java/SDA/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/src/main/java/SDA/Library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/src/main/java/SDA/Library/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/src/main/java/SDA/Library/StoredBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/src/main/java/SDA/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/src/test/java/SDA/Library/testBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/src/test/java/SDA/TestCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/src/test/java/SDA/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD/src/test/java/SDA/UserProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/TDD2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/main/java/SDA/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/main/java/SDA/GenerateID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/main/java/SDA/Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/TestCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/TestGenerateID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/TestNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/email/TestEmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/user/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/user/TestUserDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/user/TestUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/user/TestUserValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/Flights.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/BitTorrent/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/BitTorrent/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/BitTorrent/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/BitTorrent/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Club.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Menager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/Obowiazki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/PortalGem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/sklep/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/sklep/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/sklep/klient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/zad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search by ID" beforeDir="false" afterPath="$PROJECT_DIR$/../Search by ID" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rozcwiczka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rozcwiczka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rozcwiczka/src/com/company/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rozcwiczka/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Obserwator/TempProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Obserwator/SMSNotification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+              <folding>
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Obserwator/EmailNotification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Obserwator/Obserwator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxDE.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxEN.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Room.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/testRoom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Factory/FueslType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Factory/DieselCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Factory/ElectricCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Factory/BenzinCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Factory/FuelType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Factory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Factory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Factory/FactoryCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Factory/Car.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Factory/testFactoryCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Factory/FactoryCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Singleton/Session.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Singleton/testSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Adapter/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Adapter/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Adapter/AccountServiceAdapter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Adapter/testAdapter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Dekorator/RawTxt.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Dekorator/Decorator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Dekorator/JavaTxt.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Dekorator/PHPTxt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Fasada/Fasada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/Pełnomocnik.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/DataLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/DataLoaderImpl.java" />
+        <option value="$PROJECT_DIR$/Resources/dane.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/ProxyLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Iterator/testIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Iterator/ListWithId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxContekst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxDE.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxEN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxPL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Obserwator/Obserwator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Obserwator/TempProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Obserwator/EmailNotification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Obserwator/SMSNotification.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="983" />
+    <option name="height" value="920" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="Obserwator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553426471194" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="SDA" />
+      <recent name="SDA.Factory" />
+      <recent name="SDA.Builder" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.App" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testAdapter.testAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA.Adapter" />
+      <option name="MAIN_CLASS_NAME" value="SDA.Adapter.testAdapter" />
+      <option name="METHOD_NAME" value="testAdapter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testFactoryCar.testFactoryCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA.Factory" />
+      <option name="MAIN_CLASS_NAME" value="SDA.Factory.testFactoryCar" />
+      <option name="METHOD_NAME" value="testFactoryCar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testIterator.testIterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA.Iterator" />
+      <option name="MAIN_CLASS_NAME" value="SDA.Iterator.testIterator" />
+      <option name="METHOD_NAME" value="testIterator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSingleton.testSession" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA.Singleton" />
+      <option name="MAIN_CLASS_NAME" value="SDA.Singleton.testSingleton" />
+      <option name="METHOD_NAME" value="testSession" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.testIterator.testIterator" />
+        <item itemvalue="JUnit.testAdapter.testAdapter" />
+        <item itemvalue="JUnit.testSingleton.testSession" />
+        <item itemvalue="JUnit.testFactoryCar.testFactoryCar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="859da33e-3fdb-49d1-9586-3eb961b2bf9c" name="Default Changelist" comment="" />
+      <created>1553328184168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553328184168</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="testSingleton_testSession - 2019.03.23 at 11h 38m 34s.xml">
+      <configuration name="testSingleton.testSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testAdapter_testAdapter - 2019.03.23 at 13h 12m 06s.xml">
+      <configuration name="testAdapter.testAdapter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testAdapter_testAdapter - 2019.03.23 at 13h 19m 17s.xml">
+      <configuration name="testAdapter.testAdapter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testAdapter_testAdapter - 2019.03.23 at 13h 20m 25s.xml">
+      <configuration name="testAdapter.testAdapter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testIterator_testIterator - 2019.03.24 at 10h 10m 22s.xml">
+      <configuration name="testIterator.testIterator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testIterator_testIterator - 2019.03.24 at 10h 11m 39s.xml">
+      <configuration name="testIterator.testIterator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testIterator_testIterator - 2019.03.24 at 10h 12m 44s.xml">
+      <configuration name="testIterator.testIterator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testIterator_testIterator - 2019.03.24 at 10h 15m 05s.xml">
+      <configuration name="testIterator.testIterator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testIterator_testIterator - 2019.03.24 at 10h 29m 33s.xml">
+      <configuration name="testIterator.testIterator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testIterator_testIterator - 2019.03.24 at 10h 30m 19s.xml">
+      <configuration name="testIterator.testIterator" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14138818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14138818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>BigDecimal.valueOf(0.23)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new BigDecimal(0.23)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Builder/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Builder/testRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Factory/BenzinCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Factory/FuelType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Factory/ElectricCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Factory/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Factory/DieselCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Singleton/testSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Singleton/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding>
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Factory/testFactoryCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="73" lean-forward="true" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Factory/FactoryCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Adapter/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Adapter/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Adapter/AccountServiceAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Adapter/testAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Dekorator/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Dekorator/JavaTxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Dekorator/PHPTxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Dekorator/RawTxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Fasada/Fasada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/Pełnomocnik.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="242" column="16" selection-start-line="242" selection-start-column="16" selection-end-line="242" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/dane.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/DataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/DataLoaderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Pełnomocnik/ProxyLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Iterator/testIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Iterator/ListWithId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxDE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxEN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="1269" column="29" lean-forward="true" selection-start-line="1269" selection-start-column="29" selection-end-line="1269" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxPL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxContekst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Strategy/TaxStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Obserwator/Obserwator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Obserwator/TempProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Obserwator/EmailNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Obserwator/SMSNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

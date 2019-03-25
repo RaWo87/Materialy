@@ -88,6 +88,7 @@ public class CountingSort {
              ) {
             int index = (countingMap.get(inputMap.get(key)));
             index--;
+            countingMap.put((inputMap.get(key)),index);
             resault[index] = inputMap.get(key);
         }
         return resault;

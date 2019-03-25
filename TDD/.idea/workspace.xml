@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c29ed0c-aa86-40e5-96f7-4fb67697dc6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HotelService/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/HotelService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/dane.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Library/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Library/StoredBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/Library/testBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/TestCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/UserProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/TDD2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/main/java/SDA/GenerateID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/main/java/SDA/Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/TestGenerateID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/TestNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/email/TestEmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/user/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/user/TestUserDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/user/TestUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDD2/src/test/java/SDA/user/TestUserValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/Flights.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZadaniaStrumienie/src/main/java/SDA/Flights/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/BitTorrent/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/BitTorrent/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/BitTorrent/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/BitTorrent/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Club.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Menager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/FootballMenager/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/Obowiazki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/PortalGem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/sklep/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/sklep/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/sklep/klient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/zad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Search by ID" beforeDir="false" afterPath="$PROJECT_DIR$/../Search by ID" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rozcwiczka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rozcwiczka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rozcwiczka/src/com/company/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rozcwiczka/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rozcwiczka/src/com/company/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TDD$TestCalc.ic" NAME="TestCalc Coverage Results" MODIFIED="1552123190940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SDA.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="54" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Library/StoredBooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/dane.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Library/testBookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SDA/TestCalc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Calc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SDA/TestUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SDA/UserProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/UserParams.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/UserProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/TestUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Calc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Library/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Library/StoredBooks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Library/BookService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/Library/testBookService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/App.java" />
+        <option value="$PROJECT_DIR$/resources/dane.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/TestCalc.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TDD" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="983" />
+    <option name="height" value="920" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552227593003" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="SDA.Library" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m1rage\IdeaProjects\TDD" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestCalc.testDzielExceptions">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.App" />
+      <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCalc.getNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA" />
+      <option name="MAIN_CLASS_NAME" value="SDA.TestCalc" />
+      <option name="METHOD_NAME" value="getNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCalc.testDodaj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA" />
+      <option name="MAIN_CLASS_NAME" value="SDA.TestCalc" />
+      <option name="METHOD_NAME" value="testDodaj" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCalc.testDzielExceptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA" />
+      <option name="MAIN_CLASS_NAME" value="SDA.TestCalc" />
+      <option name="METHOD_NAME" value="testDzielExceptions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testBookService.testGetBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA.Library" />
+      <option name="MAIN_CLASS_NAME" value="SDA.Library.testBookService" />
+      <option name="METHOD_NAME" value="testGetBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCalc.testDzielExceptions" />
+        <item itemvalue="JUnit.TestCalc.testDodaj" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.TestCalc.getNumbers" />
+        <item itemvalue="JUnit.testBookService.testGetBooks" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c29ed0c-aa86-40e5-96f7-4fb67697dc6f" name="Default Changelist" comment="" />
+      <created>1552118917383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552118917383</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestCalc_testFactorial - 2019.03.09 at 14h 52m 18s.xml">
+      <configuration name="TestCalc.testFactorial" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalc_testFactorial - 2019.03.09 at 14h 54m 19s.xml">
+      <configuration name="TestCalc.testFactorial" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalc_testFactorial - 2019.03.09 at 14h 57m 55s.xml">
+      <configuration name="TestCalc.testFactorial" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalc_testFactorial - 2019.03.09 at 14h 59m 20s.xml">
+      <configuration name="TestCalc.testFactorial" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalc_testFactorial - 2019.03.09 at 15h 01m 27s.xml">
+      <configuration name="TestCalc.testFactorial" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalc_getNumbers - 2019.03.10 at 08h 18m 09s.xml">
+      <configuration name="TestCalc.getNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalc_getNumbers - 2019.03.10 at 08h 27m 30s.xml">
+      <configuration name="TestCalc.getNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalc_testDodaj - 2019.03.10 at 08h 30m 33s.xml">
+      <configuration name="TestCalc.testDodaj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalc_testDodaj - 2019.03.10 at 08h 34m 40s.xml">
+      <configuration name="TestCalc.testDodaj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCalc_testDzielExceptions - 2019.03.10 at 09h 04m 18s.xml">
+      <configuration name="TestCalc.testDzielExceptions" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32969153" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32969153" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.25" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32974428" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32969153" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32969153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Test.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="681" column="23" selection-start-line="681" selection-start-column="23" selection-end-line="681" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="66" column="48" lean-forward="true" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Library/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Library/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Library/StoredBooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/dane.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Library/testBookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/UserProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="54" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Calc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/TestCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
